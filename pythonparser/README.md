@@ -40,7 +40,7 @@ Setup Instructions
 
 Clone this repository to your local machine:
 
-	bash git clone https://github.com/Pythonparser/pythonparser.git
+	 git clone https://github.com/Pythonparser/pythonparser.git
 
 3. Install ANTLR
 
@@ -52,19 +52,19 @@ Place the jar file in a preferred directory (e.g., /usr/local/lib).
 
 Add an alias for ANTLR to your shell configuration file:
 
-bash alias antlr4='java -jar /usr/local/lib/antlr-4.13.2-complete.jar'
+ alias antlr4='java -jar /usr/local/lib/antlr-4.13.2-complete.jar'
 
 
 5. Generate Lexer and Parser Files
 Run the following commands to generate the lexer and parser files:
 
-		bash antlr4 -Dlanguage=Python3 -visitor python.g4
+		 antlr4 -Dlanguage=Python3 -visitor python.g4
 
 
 6. Run the Parser
 Ensure the main.py, pythonLexer.py, pythonParser.py, and Denter.py files are in the same directory. Then run:
 
-		bash python main.py
+		 python main.py
 
 
 Key Files:
@@ -83,7 +83,7 @@ Example Usage
 Place the Python-like script to be parsed in the file project_deliverable_3.py.
 Run the parser:
 
-		bash python main.py
+		 python main.py
 The script outputs the token stream, the parse tree in textual format, and a graphical representation (parse_tree.png).
 
 Notes:
