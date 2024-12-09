@@ -40,7 +40,7 @@ Setup Instructions
 
 Clone this repository to your local machine:
 
-	 git clone https://github.com/Pythonparser/pythonparser.git
+	 git clone https://github.com/printfastt/Pythonparser
 
 3. Install ANTLR
 
