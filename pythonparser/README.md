@@ -58,7 +58,7 @@ Add an alias for ANTLR to your shell configuration file:
 5. Generate Lexer and Parser Files
 Run the following commands to generate the lexer and parser files:
 
-		 antlr4 -Dlanguage=Python3 -visitor python.g4
+		 antlr4 -Dlanguage=Python3 python.g4
 
 
 6. Run the Parser
